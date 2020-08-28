@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: orange;
+}
+
+.logo-1{
+    justify-content: center;
+    margin:80px;
+    text-align: center;
+}
+
+.welcome{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.input-tugas{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.input-tugas input{
+    font-size: 30px;
+    border: 1px orange solid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input-tugas button{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    color: black;
+    background-color: orange;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+#list-tugas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+#list-tugas div{
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    width: 50vh;
+    color: black;
+    font-weight: bolder;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 670px;
+}
+
+.footer{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6vh;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
