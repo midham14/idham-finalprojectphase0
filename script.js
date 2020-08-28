@@ -5,12 +5,8 @@ var listTugas = document.getElementById("list-tugas")
 let datas = []
 
 function onClickSubmit(){
-    listTugas.innerHTML = ''
+    // listTugas.innerHTML = ''
     datas.push(getInput.value)
-
-
-
-    for(var i = 0; i<datas.length;i++){
         var newTagDiv = document.createElement("div")
         newTagDiv.setAttribute("id", `list-selesai`)
         var newTagP = document.createElement("p")
@@ -24,11 +20,10 @@ function onClickSubmit(){
             }
             // console.log(ev.path[1])
         })
-        var newTask = document.createTextNode(datas[i])
+        var newTask = document.createTextNode(getInput.value)
         newTagDiv.appendChild(newTask)
         newTagDiv.appendChild(newTagP)
         listTugas.appendChild(newTagDiv)
-    }
 
 
 
