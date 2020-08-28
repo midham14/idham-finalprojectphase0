@@ -4,8 +4,19 @@ var listTugas = document.getElementById("list-tugas")
 
 
 function onClickSubmit(){
-    var newTag = document.createElement("div")
+    var newTagDiv = document.createElement("div")
+    var newTagP = document.createElement("p")
+    var newDelete = document.createTextNode('X')
+    newTagP.appendChild(newDelete)
+    newTagP.addEventListener("click", deleteItem)
     var newTask = document.createTextNode(getInput.value)
-    newTag.appendChild(newTask)
-    listTugas.appendChild(newTag)
+    newTagDiv.appendChild(newTask)
+    newTagDiv.appendChild(newTagP)
+    listTugas.appendChild(newTagDiv)
+
+
+    function deleteItem(){
+        console.log('tes masuk')
+    }
+
 }

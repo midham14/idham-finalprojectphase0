@@ -52,6 +52,21 @@ body{
     margin-top: 20px;
 }
 
+#list-tugas span{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#list-tugas p{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: auto;
+    color:red;
+}
+
+
 
 #list-tugas div{
     justify-content: center;
@@ -62,8 +77,10 @@ body{
     font-weight: bolder;
     margin: 20px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 670px;
+    display: flex;
+    flex-direction: row;
 }
 
 .footer{
