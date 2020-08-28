@@ -52,10 +52,17 @@ body{
     margin-top: 20px;
 }
 
-#list-tugas span{
+.list{
+    justify-content: center;
+    text-align: center;
+}
+
+span{
     color: white;
     font-weight: bold;
     font-size: 24px;
+    text-align: center;
+    justify-content: center;
 }
 
 #list-tugas p{
